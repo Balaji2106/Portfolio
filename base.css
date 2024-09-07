@@ -1,0 +1,143 @@
+/* img {
+    border-radius: 200px;
+    box-shadow: 10px 0px 10px;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(0.9) ;
+    color: springgreen;
+}
+
+
+.text {
+    text-align:center;
+    position: relative;
+    top: -600px;
+    right: -700px;
+    background-color: aqua;
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 10px 0px 10px;
+    box-shadow: chartreuse;
+    transition: transform 0.3s ease;
+}
+
+
+.text:hover {
+    transform: scale(1.1);
+    color: chartreuse;
+}
+
+.text:active {
+    color: blue;
+}
+
+
+body {
+    background-image: url(image1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.iframe {
+    height: 700px;
+    width: 700px;
+    background-color: aquamarine;
+    position: relative;
+    right: -300px;
+    border-radius: 100px;
+}
+
+.inframe {
+    position: relative;
+    bottom: -100px;
+    right: -50px;
+}
+
+.ex {
+    background-color: aqua;
+    height: 175px;
+    width: 175px;
+}
+
+.ax {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+} */
+
+body{
+    background-image: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+img {
+    border-radius: 900px;
+    position: relative;
+    top: -450px;
+    transition: transform 0.5 ease ;
+    
+}
+
+img:hover {
+    transform: scale(0.9);
+    background-color: chartreuse;
+    /* box-shadow: 10px 10px 100px 30px rgb(82, 247, 159); */
+}
+
+
+
+.weltext {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    border-style:double;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:white;
+
+}
+
+a:active {
+    background-color:black;
+}
+
+li{
+    list-style-type: none;
+    float:inline-end ;
+    padding: 15px ;
+    padding-top: 30px;
+}
+
+.home {
+    position: relative;
+    left: -800px;
+}
+
+.nav {
+    height: 80px;
+    background-color:black ;
+    
+}
+.nav:hover {
+    box-shadow: 30px 10px 100px 30px rgb(53, 65, 65);
+}
+
+.foot{
+    height: 80px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+

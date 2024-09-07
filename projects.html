@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css" type="text/css">
+    <title>Document</title>
+    <style>
+        img {
+            border-radius: 10px;
+            background-color: aqua;
+            width: 200px;
+            height: auto;
+        }
+        #mul{
+            height: 200px;
+            width: 400px;
+        }
+
+        .project-container {
+            display: flex;
+            margin-top: 80px;
+            background-color: rgb(63, 66, 63);
+            padding: 20px;
+            border-radius: 10px;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+
+        .project-container + .project-container {
+            margin-top: 20px;
+
+        }
+
+        .project {
+            flex: 1;
+            position: relative;
+            padding: 30px;
+            bottom: -450px;
+        }
+
+        .project-description {
+            margin-left: 20px;
+            color: white;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .foot1{
+            background-color: black;
+            color: white;
+            height: 80px;
+            position: relative;
+            bottom: -265px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="download.html">Resume</a></a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="home"><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="project-container">
+        <div class="project">
+            <img src="project1.jpeg" alt="Project Image 1">
+        </div>
+        <div class="project-description">
+            <h1>Project-1</h1>
+            <p>This project involves creating a fire detection system using image processing techniques implemented on a Raspberry Pi. The system is designed to monitor environments for potential fire hazards by analyzing video feeds in real-time. Leveraging the processing power of the Raspberry Pi, this low-cost and efficient system provides an effective solution for early fire detection, particularly in areas where traditional fire detection systems may not be feasible.</p>
+            <p>Key Features: <br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Real-Time Fire Detection: The system processes live video feeds captured by a camera module connected to the Raspberry Pi, detecting fire outbreaks based on color and motion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;analysis.</p>
+               <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alert Mechanism: Upon detecting fire, the system can be programmed to trigger alarms, send notifications via email or SMS, or activate other safety protocols, ensuring a <br> &nbsp;&nbsp;&nbsp;&nbsp; quick  response   to potential dangers.
+               </p>
+        </div>
+    </div>
+
+    <div class="project-container">
+        <div class="project">
+            <img src="assist.jpeg" alt="Project Image 2">
+        </div>
+        <div class="project-description">
+            <h1>Project-2</h1>
+            <p>This project involves the development of a Virtual Assistant designed to enhance productivity and streamline daily tasks through voice-controlled interactions. The assistant leverages advanced natural language processing (NLP) and machine learning algorithms to understand and respond to user commands, providing a seamless and intuitive user experience.</p>
+            <p>Key Features: <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Voice Activation: The Virtual Assistant is activated through a customizable wake word, allowing hands-free operation. Once activated, it listens for user commands and processes them  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in real-time.</p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Device Control: The assistant can control various aspects of the user's device, such as adjusting volume, managing settings, and launching applications, enhancing the overall user <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; experience.
+            </p>
+        </div>
+    </div>
+
+    <div class="project-container">
+        <div class="project">
+            <img src="multi.png" alt="Project Image 3" id="mul">
+        </div>
+        <div class="project-description">
+            <h1>Project-3</h1>
+            <p>This project explores the implementation of image multiplication using a 4-2 compressor, a technique commonly used in digital signal processing and VLSI design to efficiently multiply binary numbers. The 4-2 compressor is a specialized circuit that reduces the number of partial products generated during multiplication, leading to faster and more efficient computations, particularly in image processing applications.</p>
+            <p>Key Features: <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4-2 Compressor Circuit: The core of the project is the design and implementation of a 4-2 compressor circuit, which takes four input bits and produces &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; two output bits, along with a carry bit. This compressor is used to optimize the partial product reduction stage in the multiplication process.</p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image Multiplication: The project applies the 4-2 compressor in the context of multiplying two images, typically represented as matrices of pixel values.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each pixel's intensity value is treated as a binary number, and the multiplication is performed at the pixel level.
+            </p>
+        </div>
+    </div>
+
+    <footer class="foot1">
+        <h1>&copy;2024</h1>
+    </footer>
